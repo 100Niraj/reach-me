@@ -8,7 +8,7 @@ const Logout = ()=>{
 
 
     useEffect( () => {
-        fetch('/logout' ,{
+        fetch('https://important-clam-shorts.cyclic.app/logout' ,{
             mehtod: "POST",
             headers: {
                 Accept: "application/json",

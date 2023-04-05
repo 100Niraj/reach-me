@@ -9,7 +9,7 @@ const Contact = () =>{
     const callcontactpage = async () =>{
         try {
              const token=localStorage.getItem('auth');
-             const res = await fetch('/about', {
+             const res = await fetch('https://important-clam-shorts.cyclic.app/about', {
                 method: "POST",
                 headers: {
                   "Content-Type" : "application/json"

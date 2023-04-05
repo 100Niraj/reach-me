@@ -39,7 +39,7 @@ const PostData = async(e) => {
 
   const {name, email, phone, address, password, confpassword } = user;
 
-  const res = await fetch('https://important-clam-shorts.cyclic.app/register', {
+  const res = await fetch('https://important-clam-shorts.cyclic.app/register', { 
     method: "POST",
     headers: {
       "Content-Type" : "application/json"

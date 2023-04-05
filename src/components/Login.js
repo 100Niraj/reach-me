@@ -11,7 +11,8 @@ const Login = () =>{
    const loginUser = async (e) => {
     e.preventDefault();
 
-    let res = await fetch('https://important-clam-shorts.cyclic.app/signin' , { method :"POST",
+    let res = await fetch('https://important-clam-shorts.cyclic.app/signin', { 
+      method :"POST",
       headers : {
         "Content-Type" : "application/json"
       },

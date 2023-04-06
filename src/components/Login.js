@@ -22,7 +22,7 @@ const Login = () =>{
       })
     });
      res= await res.json();
-
+    console.log(res);
      if(res.status===200)
      {
         // console.log(res.data,res.token);
